@@ -3,12 +3,322 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Simple starter</title>
+        <title>2-imtihon</title>
         <link rel="stylesheet" href="css/main.min.css" />
     </head>
     <body>
-        <h1>Simple starter</h1>
+               <!-- header section -->     <h1 class="visually-hidden">header section</h1>
 
-        <script src="js/main.js"></script>
+               <header class="header">
+                   <div class="container header__container">
+                        <a class="header__logo" href="index.html">
+                            <img class="header__logo-img" 
+                            src="img/site-logo.svg" 
+                            alt="site-logo" 
+                            width="135" 
+                            height="38">
+                        </a>
+                        <nav class="navbar navbar-open">
+                            <ul class="navbar__list">
+                                <li class="navbar__item">
+                                    <a class="navbar__link" href="index.html">Pricing</a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a class="navbar__link" href="#">About</a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a class="navbar__link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <a class="header__link" href="index.html">Schedule a Demo</a>
+                        <button class="header__btn close-btn "></button>
+                   </div>
+               </header>
+
+                        <!-- main section start -->
+
+                        <main>
+                            <section class="hero">
+                                <div class="container hero__container">
+                                    <div class="contant">
+                                        <h2 class="contant__title">
+                                            Start building with our APIs for absolutely free.
+                                        </h2>
+                                        <form action="https: //echo.htmlacademy.ru" method="POST">
+                                            <input 
+                                            class="contant__input"
+                                            type="email"
+                                            name="email"
+                                            placeholder="Enter email address"
+                                            required
+                                            autocomplete="off">
+                                            
+                                            <button class="contant__button" type="submit">Schedule a Demo</button>
+                                        </form>
+
+                                        <a class="contant__link" href="index.html">
+                                            Have any questions? <span class="contant__contact">Contact Us</span>
+                                        </a>
+                                    </div>
+                                    <div class="contant__wrapper">
+                                        <img class="hero__img" src="img/hero-img.png"  alt="hero-img">
+                                    </div>
+                                    <img class="hero__dot" src="img/hero-images.png" alt="images">
+                                </div>
+                            </section>
+
+                            <section class="mask">
+                                <div class="container mask__container">
+                                    <div class="mask__contant">
+                                        <h2 class="mask__title">
+                                            Who we work with
+                                        </h2>
+                                        <p class="mask__text">
+                                            Today, millions of people around the world have successfully connected their 
+                                            accounts to apps they love using our API. We provide developers with the 
+                                            tools they need to create easy and accessible experiences for their users. 
+                                        </p>
+                                        <a class="mask__link" href="#">About Us</a>
+                                    </div>
+                                    <ul class="list">
+                                        <li class="list__item">
+                                            <a class="list__link" href="index.html">
+                                                <img 
+                                                class="list__img" 
+                                                src="img/tessla-img.svg"
+                                                alt="tessla-img" 
+                                                width="129" 
+                                                height="17">
+                                            </a>
+                                        </li>
+                                        <li class="list__item">
+                                            <a class="list__link" href="index.html">
+                                                <img 
+                                                class="list__img" 
+                                                src="img/microsoft-img.png" 
+                                                srcset="img/microsoft-img.png 1x, img/microsoft-img.png 2x"
+                                                alt="microsoft-img" 
+                                                width="145" 
+                                                height="30">
+                                            </a>
+                                        </li>
+                                        <li class="list__item">
+                                            <a class="list__link" href="index.html">
+                                                <img 
+                                                class="list__img" 
+                                                src="img/packard-img.png" 
+                                                srcset="img/packard-img.png 1x, img/packard-img.png 2x"
+                                                alt="packard-img" 
+                                                width="140" 
+                                                height="27">
+                                            </a>
+                                        </li>
+                                        <li class="list__item">
+                                            <a class="list__link" href="index.html">
+                                                <img 
+                                                class="list__img" 
+                                                src="img/oracle-img.png" 
+                                                srcset="img/oracle-img.png 1x, img/oracle-img.png 2x"
+                                                alt="oracle-img" 
+                                                width="131" 
+                                                height="17">
+                                            </a>
+                                        </li>
+                                        <li class="list__item">
+                                            <a class="list__link" href="index.html">
+                                                <img 
+                                                class="list__img" 
+                                                src="img/invidia.png" 
+                                                srcset="img/invidia.png 1x, img/invidia.png 2x"
+                                                alt="google-img" 
+                                                width="96" 
+                                                height="33">
+                                            </a>
+                                        </li>
+                                        <li class="list__item">
+                                            <a class="list__link" href="index.html">
+                                                <img 
+                                                class="list__img" 
+                                                src="img/google-img.png"
+                                                srcset="img/google-img.png 1x, img/google-img.png 2x" 
+                                                alt="invidia-img" 
+                                                width="137" 
+                                                height="26">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+
+                            <section class="easy">
+                                <div class="container easy__container">
+                                    <img
+                                    class="easy__img" 
+                                    src="img/vscode-img 1x.png" 
+                                    srcset="img/vscode-img 1x.png, img/vscode-img 2x.png" 
+                                    alt="vscode-img"
+                                    width="445"
+                                    height="284">
+                                    <div class="easy__contant">
+                                        <h2 class="easy__title">
+                                            Easy to implement
+                                        </h2>
+                                        <p class="easy__text">
+                                            Our API comes with just a few lines of code. You’ll be up and running in no 
+                                            time. We built our documentation page to integrate payments functionality 
+                                            with ease.
+                                        </p>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section class="simple">
+                                <div class="container simple__container">
+                                    <div class="simple__contant">
+                                        <h2 class="simple__title">
+                                            Simple UI & UX
+                                        </h2>
+                                        <p class="simple__text">
+                                            Our pre-built form is easy to integrate in your app or website’s checkout 
+                                            flow and designed to optimize conversion. 
+                                        </p>
+                                    </div>
+                                    <div class="simple__wrapper">
+                                        <img 
+                                        class="simple__img"
+                                        src="img/payapi-img 1x.png" 
+                                        srcset="img/payapi-img 1x.png, img/payapi-img 2x.png" 
+                                        alt="phone-img"
+                                        width="263" 
+                                        height="500">
+
+                                        <img 
+                                        class="simple-images"
+                                        src="img/Iphone-img 1x.png" 
+                                        srcset="img/Iphone-img 1x.png, img/Iphone-img 2x.png" 
+                                        alt="Iphone-img"
+                                        width="263" 
+                                        height="500">
+
+                                        <img 
+                                        class="simple__dotted" 
+                                        src="img/Bitmap-img.png" 
+                                        alt="Bitmap-img" 
+                                        width="300" 
+                                        height="300">
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section class="wealth">
+                                <div class="container wealth__container">
+                                    <ul class="wealth__list">
+                                        <li class="wealth__item">
+                                            <img 
+                                            class="wealth__img"
+                                            src="img/money-img 1x.png" 
+                                            srcset="img/money-img 1x.png, img/money-img 2x.png" 
+                                            alt="money-img"
+                                            width="106"
+                                            height="106">
+
+                                            <h3 class="wealth__title">
+                                                Personal Finances
+                                            </h3>
+                                            <p class="wealth__text">
+                                                Consolidate financial data from multiple sources and categorize 
+                                                transactions up to 2 years of history. Analyze reports to reconcile 
+                                                activities in your account. 
+                                            </p>
+                                        </li>
+                                        <li class="wealth__item">
+                                            <img 
+                                            class="wealth__img"
+                                            src="img/banking-img 1x.png" 
+                                            srcset="img/banking-img 1x.png, img/banking-img 2x.png" 
+                                            alt="money-img"
+                                            width="106"
+                                            height="106">
+
+                                            <h3 class="wealth__title">
+                                                Banking & Coverage
+                                            </h3>
+                                            <p class="wealth__text">
+                                                With our platform, you can speed up account onboarding and support ongoing 
+                                                payments for checking, savings, credit card, and brokerage accounts.
+                                            </p>
+                                        </li>
+                                        <li class="wealth__item">
+                                            <img 
+                                            class="wealth__img"
+                                            src="img/combinet-img 1x.png" 
+                                            srcset="img/combinet-img 1x.png, img/combinet-img 1x.png" 
+                                            alt="money-img"
+                                            width="106"
+                                            height="106">
+
+                                            <h3 class="wealth__title">
+                                                Consumer Payments
+                                            </h3>
+                                            <p class="wealth__text">
+                                                It’s easier to set up secure bank payments with us through a flow 
+                                                designed with the user experience in mind. Customers could instantly 
+                                                authenticate their account.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+
+                            <section class="ready">
+                                <div class="container ready__container">
+                                    <h2 class="ready__title">
+                                        Ready to start?
+                                    </h2>
+
+                                    <form action="https: //echo.htmlacademy.ru" method="POST">
+                                        <input 
+                                        class="ready__input"
+                                        type="email"
+                                        name="email"
+                                        placeholder="Enter email address"
+                                        required
+                                        autocomplete="off">
+                                        
+                                        <button class="ready__button" type="submit">Schedule a Demo</button>
+                                    </form>
+                                </div>
+                            </section>
+                        </main>
+
+                        <!-- footer section -->            <h1 class="visually-hidden">footer section</h1>
+
+                        <footer class="footer">
+                            <div class="container footer__container">
+                               <a class="footer__logo" href="index.html">
+                                <img
+                                footer__img-logo 
+                                src="img/footer-logo 1x.png" 
+                                srcset="img/footer-logo 1x.png, img/footer-logo 2x.png" 
+                                alt="footer-logo">
+                               </a>
+                               <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a class="footer__link" href="index.html">Pricing</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a class="footer__link" href="#">About</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a class="footer__link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                               <img class="footer__img" src="img/tw-img.svg" alt="fb-img">
+                               <img class="footer__img" src="img/fb-img.svg" alt="tw-img">
+                               <img class="footer__img" src="img/in-img.svg" alt="in-img">
+                            </div>
+                        </footer>
+        <script src="js/index.js"></script>
     </body>
 </html>
