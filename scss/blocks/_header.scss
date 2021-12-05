@@ -81,7 +81,48 @@
 
         &:hover {
             opacity: 1;
+            color: #476680;
+        }
+
+        &:active {
+            opacity: 1;
             color: #36536B;
+        }
+    }
+}
+
+@media only screen and (max-width:1050px) {
+    .navbar {
+        
+        &__list {
+            margin: 0;
+            padding: 0;
+            margin-right: 140px;
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+        }
+    
+        &__item {
+            margin-left: 30px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .navbar {
+        
+        &__list {
+            margin: 0;
+            padding: 0;
+            margin-right: 400px;
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+        }
+    
+        &__item {
+            margin-left: 30px;
         }
     }
 }
