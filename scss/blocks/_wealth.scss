@@ -33,7 +33,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1043px) {
     .wealth {
         &__list {
             position: relative;
@@ -53,7 +53,7 @@
     
         &__img {
             width: 88px;
-            margin-left: 65px;
+            margin-left: 10px;
         }
     
         &__title {
@@ -68,6 +68,371 @@
         &__text {
             font-size: 15px;
             line-height: 25px;
+            text-align: center;
+            letter-spacing: -0.115385px;
+            color: #6C8294;
+        }
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .wealth {
+        &__list {
+            position: relative;
+            z-index: 1;
+            right: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style-type: none;
+            margin-top: 100px;
+            margin-bottom: 95px;
+        }
+    
+        &__item {
+            position: relative;
+            z-index: 1;
+            // left: 15px;
+            right: 75px;
+            max-width: 300px;
+        }
+    
+        &__img {
+            width: 88px;
+            margin-left: 105px;
+        }
+    
+        &__title {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 25px;  
+            text-align: center;
+            letter-spacing: -0.138462px;
+            color: #36536B;
+        }
+    
+        &__text {
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            letter-spacing: -0.115385px;
+            color: #6C8294;
+        }
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .wealth {
+
+        &__list {
+            position: relative;
+            z-index: 1;
+            // right: 20px;
+            left: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style-type: none;
+            margin-top: 100px;
+            margin-bottom: 95px;
+        }
+
+        &__item {
+            max-width: 350px;
+            width: 100%;
+            // margin-left: 200px;
+        }
+    
+        &__img {
+            position: relative;
+            width: 88px;
+            margin-left: 130px;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 1050px) {
+    .wealth {
+        &__list {
+            position: relative;
+            z-index: 1;
+            // right: 20px;
+            left: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style-type: none;
+            margin-top: 100px;
+            margin-bottom: 95px;
+        }
+    
+        &__item {
+            position: relative;
+            z-index: 1;
+            // left: 15px;
+            // right: 75px;
+            max-width: 300px;
+        }
+    
+        &__img {
+            width: 88px;
+            margin-left: 105px;
+        }
+    
+        &__title {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 25px;  
+            text-align: center;
+            letter-spacing: -0.138462px;
+            color: #36536B;
+        }
+    
+        &__text {
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            letter-spacing: -0.115385px;
+            color: #6C8294;
+        }
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .wealth {
+        &__list {
+            position: relative;
+            z-index: 1;
+            // right: 20px;
+            left: 65px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style-type: none;
+            margin-top: 100px;
+            margin-bottom: 95px;
+        }
+    
+        &__item {
+            position: relative;
+            z-index: 1;
+            // left: 15px;
+            // right: 75px;
+            max-width: 270px;
+        }
+    
+        &__img {
+            width: 88px;
+            margin-left: 90px;
+        }
+    
+        &__title {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 25px;  
+            text-align: center;
+            letter-spacing: -0.138462px;
+            color: #36536B;
+        }
+    
+        &__text {
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            letter-spacing: -0.115385px;
+            color: #6C8294;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .wealth {
+        &__list {
+            position: relative;
+            z-index: 1;
+            // right: 20px;
+            // left: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style-type: none;
+            margin-top: 100px;
+            margin-bottom: 95px;
+        }
+    
+        &__item {
+            position: relative;
+            z-index: 1;
+            left: 15px;
+            // right: 75px;
+            max-width: 350px;
+            width: 100%;
+        }
+    
+        &__img {
+            width: 88px;
+            margin-left: 70px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .wealth {
+        &__list {
+            position: relative;
+            z-index: 1;
+            right: 20px;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style-type: none;
+            margin-top: 100px;
+            margin-bottom: 95px;
+        }
+    
+        &__item {
+            max-width: 300px;
+        }
+    
+        &__img {
+            width: 78px;
+            margin-left: 70px;
+        }
+    
+        &__title {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 25px;  
+            text-align: center;
+            letter-spacing: -0.138462px;
+            color: #36536B;
+        }
+    
+        &__text {
+            font-size: 11px;
+            line-height: 23px;
+            text-align: center;
+            letter-spacing: -0.115385px;
+            color: #6C8294;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 690px) {
+    .wealth {
+        &__list {
+            position: relative;
+            z-index: 1;
+            right: 20px;
+            display: inline-block;
+            flex-direction: column;
+        }
+    
+        &__item {
+            max-width: 350px;
+            margin-left: 200px;
+        }
+    
+        &__img {
+            width: 88px;
+            margin-left: 130px;
+        }
+    
+        &__title {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 23px;  
+            text-align: center;
+            letter-spacing: -0.138462px;
+            color: #36536B;
+        }
+    
+        &__text {
+            font-size: 14px;
+            line-height: 23px;
+            text-align: center;
+            letter-spacing: -0.115385px;
+            color: #6C8294;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 495px) {
+    .wealth {
+
+        &__item {
+            max-width: 350px;
+            width: 100%;
+            margin-left: 200px;
+        }
+    
+        &__img {
+            position: relative;
+            width: 88px;
+            // margin-left: 50px;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 430px) {
+    .wealth {
+
+        &__item {
+            max-width: 350px;
+            margin-left: 150px;
+        }
+    
+        &__img {
+            width: 88px;
+            margin-left: 120px;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 365px) {
+    .wealth {
+        &__list {
+            position: relative;
+            z-index: 1;
+            right: 20px;
+            display: inline-block;
+            flex-direction: column;
+        }
+    
+        &__item {
+            position: relative;
+            z-index: 1;
+            left: -20px;
+            max-width: 350px;
+            width: 100%;
+            // margin-left: 130px;
+        }
+    
+        &__img {
+            width: 88px;
+            margin-left: 80px;
+        }
+    
+        &__title {
+            width: 100%;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 23px;  
+            text-align: center;
+            letter-spacing: -0.138462px;
+            color: #36536B;
+        }
+    
+        &__text {
+            font-size: 14px;
+            line-height: 23px;
             text-align: center;
             letter-spacing: -0.115385px;
             color: #6C8294;
